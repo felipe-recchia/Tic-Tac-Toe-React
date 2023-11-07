@@ -1,9 +1,11 @@
 import Image from 'next/image'
 
-export default function Home() {
+export default function square() {
   return (
     <main>
-      <h1>OI</h1>
+      <div> 
+        <button className="square">X</button><button className="square">X</button>;
+      </div>  
     </main>
   )
 }
